@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+		<style >
+		
+body{
+	background-color: #d7ded9;	
+}
+.row .main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.row .main-nav li{
+	display:inline-block; 
+}
+.main-nav li a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+}
+.main-nav li a:hover
+{
+	border:1px solid white;
+}
+.main-nav li.active a
+{
+	border: 2px solid white;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 70%;
+}
+
+.container{
+	background: #518dd6;
+	color: white;
+	width: 500px;
+	height: 400px;
+	float: right;
+	margin-top: 60px;
+}
+.Form{
+	margin-top: 30px;
+	
+
+}
+.table input {
+	width: 30%;
+outline: none !important;
+box-shadow:20%;
+padding: 10px;
+border: 0;
+display: inline-block;
+margin: 2%;	
+background:white; 
+}
+
+.Submit-btn{
+outline: none !important;
+box-shadow:20%;
+padding: 10px 20px ;
+margin: 2%;
+background: lightblue;
+cursor: pointer;
+border: 0;
+color:black;
+}
+
+.contact img{
+	width:45px;
+	margin: -5px 10px;
+}
+.contcat span{
+	margin: 3%;
+}
+.contact{
+	margin: 5% 0 5% 25%;
+	width:65%;
+	color: #6b6b6b;  
+	text-align: right;
+}
+.profilefont{
+	margin-right: 100px;
+	font-size: 15px;
+	font-family: script;
+	text-align: center;
+	 
+}
+
+.heading{
+font-size: 20px;
+width: 330px;
+height:450px;
+margin: 30px auto;
+background:#d7ded9; 
+float:left;
+border: 40px solid #d7ded9;
+}
+
+.Form{
+	
+
+}
+.Form-value input {
+	margin-top: 30px;
+width: 30%;
+outline: none !important;
+box-shadow:20%;
+padding: 10px;
+border: 0;
+display: inline-block;
+	
+background:white; 
+}
+
+.Submit-btn{
+outline: none !important;
+box-shadow:20%;
+padding: 10px 20px ;
+margin: 2%;
+background-color:lightblue;
+cursor: pointer;
+border: 0;
+color:black;
+}
+
+
+</style>	
+
+<body>
+	<div class="logo">
+	<img src="../images/paint.jpg">
+</div>
+
+
+
+	<div class="row"> 
+		<ul class="main-nav">
+			<li>
+				<a href="../pages/home.html">Home</a>
+			</li>
+			<li>
+				<a href="../pages/cv.html">CV</a>
+			</li>
+			<li>
+				<a href="../pages/blog.html">Blog</a>
+			</li>
+			<li>
+				<a href="../pages/research.html">Research</a>
+			</li>
+			<li class="active">
+				<a href="../pages/contact.html">Get in touch</a>
+			</li>
+
+		</ul>
+	</div>
+	<h1 style="font-size: 30px; display: flex; margin-left: 200px;">Get In Touch:</h1>
+<img src="../images/location.jpg" style="margin-top:60px; float: left; margin-left: -100px;" width="830" height="400">
+<div class="container">
+	<p style="text-align: center;"><b> Contact:</b>
+		<br><br><br>
+	E-mail:<a href="https://islington.edu.np/"> info@islington.edu.np</a><br>
+Phone: +977 (1) 4429068<br>
+Mobile: 9843079819<br>
+Mobile: 9851129173<br>
+Mobile: 9841626156
+<br><br><br>
+<b> Address:</b>
+<br><br>
+White Building (Opp. to City Centre),<br>
+Kamal Marg, Ktm<br>		
+Kathmandu 44600,
+</p>
+
+</div>
+<div class="heading">
+<h2 style="font-size: 20px; text-align: center;" > Client Message</h2>
+<p style="margin: 50px;">
+"Best creative team I have worked with. <br>
+
+		They delivered what they promised and the <br>results I got, couldn't be any better." <br>
+		- Prashanna GC</p>
+	</div>	
+		<div class="heading">
+		<h3 style="font-size: 20px; text-align: center;" >Get in touch</h3>
+	<center>
+		<form onsubmit=" validate()" name="login">
+
+			<div class="Form">
+		<p>
+
+			<input type="text" placeholder="Name" name="name">
+			<br>
+			<input type="text" placeholder="Contact Number" name="number">
+			<br>
+			
+
+			<input type="text" placeholder="Email Address" name="email"> 
+		<br>
+			
+			
+				<textarea name="message" rows="10" cols="30" placeholder="Your text here"></textarea>
+			 <br>
+			<a href="www.youtube.com"> Explore</a>
+</p>
+		</div>
+		
+</div>
+</center>
+	</form>
+	<script>
+
+		function validate()
+		{
+
+			var Name=document.forms["login"]["name"].value;
+			var Contact=document.forms["login"]["number"].value;
+			var Email=document.forms["login"]["email"].value;
+			var Message=document.forms["login"]["message"].value;
+
+			if(Name=="" ||Contact=="" ||Email=="" ||Message=="" )
+			{
+				alert("No blank allowed");
+
+			}
+			else{
+				alert("Thank You");
+
+			}
+		}
+	</script>
+
+	
+
+		<div class="heading">
+
+<h4 style="text-align: center;">Contact Us</h4>
+		
+		<p style="margin: 50px;">
+Email:<a href="https://islington.edu.np/">info@islington.edu.np</a>
+<br>
+Phone: +977 (1) 4429068<br>
+Mobile: 9843079819<br>
+Mobile: 9851129173<br>
+Mobile: 9841626156<br><br>
+<a href="https://www.facebook.com/prashan.gc.54"><i class="fa fa-facebook-square fa-2x"></i></a>
+	<a href="https://www.instagram.com/prashan_gc_/"><i class="fa fa-instagram fa-2x"></i></a>
+	<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa fa-google-plus-square fa-2x"></i></a>
+</p>
+	
+</div>
+
+
+
+
+<div class="profilefont">
+	<p9>My Portfolio- Prashanna GC &copy; </p9>
+
+	<a href="https://www.facebook.com/prashan.gc.54"><i class="fa fa-facebook-square fa-2x"></i></a>
+	<a href="https://www.instagram.com/prashan_gc_/"><i class="fa fa-instagram fa-2x"></i></a>
+	<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa fa-google-plus-square fa-2x"></i></a>
+
+</div>
+
+
+
+
+</body>
+
+</html>
